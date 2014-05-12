@@ -2,25 +2,24 @@ RVYou - RVU Tracker
 --
 
 Create a template by adding the codes you need.
---
 
 Step 1: Add codes from speciality
 
-evaluation and management:
-    99201–99499 >
-anesthesia:
-    00100–01999;
-    99100–99150 >
-surgery:
-    10021–69990 >
-Radiology:
-    70010-79999 >
-pathology and laboratory
-    80047–89398 >
-medicine:
-    90281–99099 >
-    99151–99199 >
-    99500–99607 >
+    evaluation and management:
+        99201–99499 >
+    anesthesia:
+        00100–01999;
+        99100–99150 >
+    surgery:
+        10021–69990 >
+    Radiology:
+        70010-79999 >
+    pathology and laboratory
+        80047–89398 >
+    medicine:
+        90281–99099 >
+        99151–99199 >
+        99500–99607 >
 
 Step 2: evaluation and management:
 
@@ -65,9 +64,16 @@ Then create a document using all the codes the user has added.
 
 A document has these attributes:
 
-
 - date created
 - date updated
+- begin date (default to tuesday of the week created)
+- end date (default to the next monday)
 - list
     - code, count
+
+
+A template has:
+
+- name
+- list of codes
 
