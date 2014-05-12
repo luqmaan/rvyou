@@ -22,6 +22,7 @@
 		8C9A207319204EA100676398 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9A205219204EA100676398 /* UIKit.framework */; };
 		8C9A207B19204EA100676398 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C9A207919204EA100676398 /* InfoPlist.strings */; };
 		8C9A207D19204EA100676398 /* RVYouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A207C19204EA100676398 /* RVYouTests.m */; };
+		8C9A20881920520F00676398 /* RVYOULogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9A20871920520F00676398 /* RVYOULogsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		8C9A207819204EA100676398 /* RVYouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RVYouTests-Info.plist"; sourceTree = "<group>"; };
 		8C9A207A19204EA100676398 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8C9A207C19204EA100676398 /* RVYouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVYouTests.m; sourceTree = "<group>"; };
+		8C9A20861920520F00676398 /* RVYOULogsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RVYOULogsTableViewController.h; sourceTree = "<group>"; };
+		8C9A20871920520F00676398 /* RVYOULogsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RVYOULogsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				8C9A205D19204EA100676398 /* RVYOUAppDelegate.h */,
 				8C9A205E19204EA100676398 /* RVYOUAppDelegate.m */,
 				8C9A206019204EA100676398 /* Main_iPhone.storyboard */,
+				8C9A20861920520F00676398 /* RVYOULogsTableViewController.h */,
+				8C9A20871920520F00676398 /* RVYOULogsTableViewController.m */,
 				8C9A206319204EA100676398 /* Main_iPad.storyboard */,
 				8C9A206619204EA100676398 /* RVYOUViewController.h */,
 				8C9A206719204EA100676398 /* RVYOUViewController.m */,
@@ -256,6 +261,7 @@
 			files = (
 				8C9A205F19204EA100676398 /* RVYOUAppDelegate.m in Sources */,
 				8C9A206819204EA100676398 /* RVYOUViewController.m in Sources */,
+				8C9A20881920520F00676398 /* RVYOULogsTableViewController.m in Sources */,
 				8C9A205B19204EA100676398 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
